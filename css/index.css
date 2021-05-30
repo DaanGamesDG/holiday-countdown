@@ -1,0 +1,99 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: "Poppins", sans-serif;
+}
+
+/* countdown css */
+.countdown {
+	margin-top: 10vh;
+}
+
+.countdown-title {
+	text-align: center;
+	font-weight: 600;
+	font-size: 3.4rem;
+}
+
+.countdown-items {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.countdown-time {
+	display: flex;
+	justify-content: center;
+}
+
+.countdown-item {
+	line-height: 1.5rem;
+	font-size: 1rem;
+	margin-right: 6vw;
+}
+
+.countdown-item:last-child {
+	margin-right: 0;
+}
+
+.countdown-item > h1 {
+	font-weight: 600;
+	font-size: 1.5rem;
+	text-align: center;
+}
+
+.countdown-item > h2 {
+	font-weight: 400;
+	font-size: 1.5rem;
+}
+
+.countdown-svg {
+	max-width: 50rem;
+	align-self: center;
+}
+
+.countdown-credits {
+	text-decoration: none;
+	color: #000000;
+	text-align: center;
+	font-size: 0.7rem;
+}
+
+@media screen and (max-width: 700px) {
+	.countdown-title {
+		font-size: 2rem;
+	}
+
+	.countdown-item > h1 {
+		font-size: 1.2rem;
+	}
+
+	.countdown-item > h2 {
+		font-size: 1.2rem;
+	}
+
+	.countdown-svg {
+		max-width: 25rem;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.countdown-title {
+		font-size: 1.5rem;
+	}
+
+	.countdown-item > h1 {
+		font-size: 1rem;
+	}
+
+	.countdown-item > h2 {
+		font-size: 1rem;
+	}
+
+	.countdown-svg {
+		max-width: 20rem;
+	}
+}
