@@ -8,7 +8,7 @@
   </a>
 </p>
 
-> I useless holiday countdown I created because I was extremly bored. It shows how many days, hours, minutes and seconds there are left before I can finally think about doing nothing for the next 6 weeks. Do with it what ever you want, it has the MIT license so nothing special. You can checkout the [demo](https://countdown.daangamesdg.tk/) if you want to know how it looks like!
+> A holiday countdown I created because I was extremly bored. It shows how many days, hours, minutes and seconds there are left before I can finally think about doing nothing for the next 6 weeks. Do with it what ever you want, it has the MIT license so nothing special. You can checkout the [demo](https://countdown.daangamesdg.tk/) if you want to know how it looks like!
 
 ## Author
 
